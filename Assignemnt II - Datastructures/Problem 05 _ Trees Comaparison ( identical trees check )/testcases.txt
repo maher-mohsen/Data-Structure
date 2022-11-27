@@ -1,0 +1,226 @@
+// Tree 1 
+   /*
+              1
+          2        3
+      4     6          5    
+  */
+
+// Tree 2  
+    /*
+              1
+          2        3
+    
+  */
+
+// Tree 3 
+
+   /*
+              1
+          2        3
+      4                5    
+    
+   */
+
+
+// Tree 4 
+
+   /*
+              1
+          2        2
+      4                4    
+    
+   */
+
+// Tree 5 
+
+   /*
+              1
+          2        2
+      4                4    
+    
+   */
+
+
+// Tree 6 
+   /*
+              1
+          2        3
+      4     6          5    
+  */
+
+// Tree 7 
+   /*
+              1
+          2        3
+      4     6          5    
+  */
+
+// Tree 8 
+   /*
+              1
+          2        3
+      4     6          15    
+  */
+
+
+// Testcases 
+Solution ourSolution ;
+
+// testcase 1 
+    // tree 1 and tree 2 
+    // diffrent tree structre 
+    // diffrent tree elements  
+         // not same tree 
+
+    /*
+        tree 1 
+
+              1
+          2        3
+      4     6          5    
+
+
+    */
+    /*
+        tree 2
+
+              1
+          2        3
+    */
+
+
+// testcase 2
+    // tree 2 and tree 3 
+    // diffrent tree structre 
+    // diffrent tree elements  
+         // not same tree 
+
+    /*
+        tree 2 
+
+              1
+          2        3
+
+
+    */
+
+    /*
+        tree 3
+
+              1
+          2        3
+      4                5    
+
+
+    */
+
+
+// testcase 3
+    // tree 3 and tree 4 
+    // same tree structre 
+    // diffrent tree elements  
+         // not same tree 
+    
+    /*
+        tree 3 
+
+              1
+          2        3
+      4                5    
+
+
+    */
+    /*
+        tree 4
+
+              1
+          2        2
+      4                4    
+
+    */
+
+
+// testcase 4
+    // tree 4 and tree 5
+    // same tree structre 
+    // same tree elements  
+        // are same tree 
+    /*
+        tree 4 
+
+              1
+          2        2
+      4                4    
+
+
+    */
+    /*
+        tree 5
+
+              1
+          2        2
+      4                4
+
+
+    */
+
+// testcase 5
+    // tree 1 and tree 7
+    // same tree structre 
+    // same tree elements  
+        // are same tree
+    /*
+        tree 1 
+
+              1
+          2        3
+      4     6          5    
+
+
+
+    */
+    /*
+        tree 7
+
+              1
+          2        3
+      4     6          5    
+
+
+    */
+
+
+// testcase 6
+    // tree 1 and tree 8
+    // same tree structre 
+    // diffrent tree elements  
+        // are not same tree 
+    /*
+        tree 1 
+
+              1
+          2        3
+      4     6          5    
+
+
+    */
+    /*
+        tree 8
+
+              1
+          2        3
+      4     6          15   
+
+
+    */
+
+/*
+	expected output :
+	0
+	0
+	0
+	1
+	1
+	0
+	
+*/

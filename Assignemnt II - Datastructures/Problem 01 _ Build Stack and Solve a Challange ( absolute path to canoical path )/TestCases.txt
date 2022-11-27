@@ -1,0 +1,19 @@
+Test 1
+path1="/home//foo/"
+    Canonical path is "/home/foo"
+
+Test 2 
+ path2="/home/";
+    "anonical path is "/home"
+
+Test 3
+ path3="/../"
+   Canonical path is "/"
+
+Test 4 
+path4="/home/./foo/"
+    Canonical path is "/home/foo"
+
+Test 5
+path5="/home/../foo/"
+    Canonical path is /foo

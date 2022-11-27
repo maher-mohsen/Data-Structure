@@ -1,0 +1,114 @@
+// Testcase 1 
+   /*
+              1
+          2        3
+      4     6          5    
+    
+       no, it is not - symmetric tree :(
+       neither foldable nor symmetric 
+  */
+
+ 
+// Testcase 2 
+/*
+              1
+          2        3
+    
+       no, it is not-symmetric tree :(
+       it's foldable but not symmetric 
+*/
+
+
+// Testcase 3 
+
+   /*
+              1
+          2        3
+      4                5    
+    
+       no , it is not-symmetric tree :(
+       it's foldable but not symmetric 
+  */
+
+
+// Testcase 4 
+
+  /*
+              1
+          2        2
+             5         5    
+    
+      no, it is not - symmetric tree :(
+      neither foldable not symmetric 
+  */
+
+// Testcase 5 
+
+  /*
+              1
+          2        2
+      5                5    
+    
+      yes , it is a - symmetric tree :)
+      both foldable and symmetric tree 
+
+  */
+
+// Testcase 6 
+
+  /*
+              1
+          2        2
+      4                5    
+    
+      no, it is not - symmetric tree :(
+      it's foldable but not symmetric 
+  */
+
+
+// testcase 7  
+  /*
+              1
+          2        3
+       4    5    6    7    
+    
+      no, it is not-symmetric tree :(
+      it's foldable but not symmetric 
+  */
+
+
+// testcase 8  
+/*
+            1
+        2        2
+    7     3    3      7    
+
+    yes, it is symmetric tree :(
+    it's foldable and also symmetric 
+*/
+
+// testcase 9 
+    /*
+                 1
+            2          2
+        5      4    4     5    
+        
+        yes, it is symmetric tree :)
+        it's foldable and symmetric 
+    */
+
+
+/*
+
+  expected output :: 
+    0
+    0
+    0
+    0
+    1
+    0
+    0
+    1
+    1
+
+*/

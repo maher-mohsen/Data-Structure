@@ -1,0 +1,44 @@
+   tree elements =  { 49 , 50 , 51 , 52 , 53 , 54 , 74 , 75 , 85 }
+
+
+  // testcase 1 
+  // arr = { 49 , 50 , 51 , 52 , 53 , 54 , 74 , 75 , 85 }
+  // until 0th element = 0 = zero  
+
+  // testcase 2 
+  // arr = { 49 , 50 , 51 , 52 , 53 , 54 , 74 , 75 , 85 }
+  // until 1st element = 49 = 49   
+
+  // testcase 3
+  // arr = { 49 , 50 , 51 , 52 , 53 , 54 , 74 , 75 , 85 }
+  // until 2nd element = 49 + 50 = 99   
+   
+
+  // testcase 4
+  // arr = { 49 , 50 , 51 , 52 , 53 , 54 , 74 , 75 , 85 }
+  // until 3rd element = 49 + 50 + 51 = 150
+
+  // testcase 5
+  // arr = { 49 , 50 , 51 , 52 , 53 , 54 , 74 , 75 , 85 }
+  // until 4th element = 49 + 50 + 51 + 52 =  202 
+
+  // testcase 6
+  // arr = { 49 , 50 , 51 , 52 , 53 , 54 , 74 , 75 , 85 }
+  // until 4th element = 49 + 50 + 51 + 52 + 53 = 255
+
+
+  // testcase 7
+  // arr = { 49 , 50 , 51 , 52 , 53 , 54 , 74 , 75 , 85 }
+  // until 4th element = 49 + 50 + 51 + 52 + 53 + 54 =  309 
+
+/*
+expected output :
+0
+49
+99
+150
+202
+255
+309
+
+*/

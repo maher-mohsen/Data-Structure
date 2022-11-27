@@ -1,0 +1,32 @@
+Private ::::
+
+vector <int> digits
+bool sign 
+
+getSign ( string )
+getSign ( int )
+Vaidate ( string )
+valid_pre ( char )
+valid_digits ( string )
+add ( vector , vector )
+subtract ( vector , vector )
+getNewSign( BigInt , BigInt , bool )
+simplify ()
+
+
+Public ::::
+
+BigInt () 
+BigInt ( string )
+BigInt ( int )
+BigInt ( const BigInt )
+operator >> ( istream , BigInt )
+operator << ( ostream , BigInt )
+operator = ( const BigInt )
+operator = ( string )
+operator = ( int )
+operator + ( const BigInt )
+operator - ( const BigInt )
+class invalidDigit {}  ;
+class invalidPrefix {} ;
+class emptyBody {} ;

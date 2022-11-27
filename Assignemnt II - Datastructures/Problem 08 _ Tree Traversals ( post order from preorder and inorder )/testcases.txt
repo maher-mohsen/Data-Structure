@@ -1,0 +1,30 @@
+
+    // TestCases 
+    
+    // testcase 1  
+    // normal case 
+    
+
+    // testcase 2 
+    // case only one element 
+
+
+    // testcase 3 
+    // case no elements at all 
+    // normal case 
+    // Pre  = 
+	// in   = 
+	// post = 
+
+    // testcase 4 
+    // normal case 
+    // Pre  = 124536
+	// in   = 425136
+	// post = 452631
+
+
+    // testcase 5
+    // normal case 
+    // Pre  = XFYZLM
+	// in   = FXZYLM
+	// post = FZMLYX

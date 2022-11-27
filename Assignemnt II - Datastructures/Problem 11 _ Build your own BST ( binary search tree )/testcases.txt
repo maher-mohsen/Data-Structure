@@ -1,0 +1,83 @@
+
+     // testcase 1
+      /*
+
+		[8,10] = 8,9,10 
+		not balanced
+		
+      */
+
+
+      // testcase 2
+      /*
+	
+
+		[1,10] = 1,2,3,4,5,7,8,9,10
+		not balanced
+		
+      */
+
+      
+      // testcase 3 
+      // testing is balanced tree or not 
+      /*
+				5
+			3		7
+		1
+
+		[1,5] = 1,3,5 
+		balanced
+		
+      */
+
+      // testcase 4 
+      // testing is balanced tree or not 
+      /*
+				5
+			3		7
+
+		[1,1] = no elements 
+		balanced
+		
+      */
+
+      // testcase 5 
+      // testing is balanced tree or not 
+      /*
+				5
+			3		7
+		0
+
+		[0,3] = 0,3
+		 balanced
+		
+      */
+
+
+      // testcase 6 
+      // testing is balanced tree or not 
+      /*
+					1
+						2
+							3
+								4
+									5
+										6
+		one root 
+		not balanced = due to right skewed  
+		[2,4] = 2,3,4
+
+      */
+
+
+      // testcase 7 
+      // testing is balanced tree or not 
+
+      /*
+				1
+
+		one root 
+		balanced 
+		[3,6] = no printed elements 
+      */
+
